@@ -28,7 +28,7 @@ namespace DoublyLinkedListWithErrors
             {
                 tail.next = p;
                 tail = p;
-                p.previous = tail;
+                p = tail;
             }
         } // end of addToTail
 
